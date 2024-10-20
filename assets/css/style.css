@@ -1,0 +1,289 @@
+
+@font-face {
+  font-family: 'shabnam';
+  src: url('../fonts/Shabnam.Font.4.0.0_YasDL.com/Shabnam-Light.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'shabnam';
+  src: url('../fonts/Shabnam.Font.4.0.0_YasDL.com/Shabnam-Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
+
+
+
+
+/**************GLOBAL CSS*****************/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+}
+ol, ul {
+  list-style: none;
+}
+a{
+  text-decoration: none !important; 
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+caption, th, td {
+  text-align: right;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+q, blockquote {
+  quotes: none;
+}
+
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+a img {
+  border: none;
+}
+
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+  display: block;
+}
+
+
+.container-fluid {
+  padding-left: 10px;
+  padding-right: 10px;
+  overflow: hidden;
+}
+
+.container {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.row {
+  margin-left: -10px;
+  margin-right: -10px;
+}
+
+.col-xs-1, .col-sm-1, .col-md-1, .col-lg-1, .col-xs-2, .col-sm-2, .col-md-2, .col-lg-2, .col-xs-3, .col-sm-3, .col-md-3, .col-lg-3, .col-xs-4, .col-sm-4, .col-md-4, .col-lg-4, .col-xs-5, .col-sm-5, .col-md-5, .col-lg-5, .col-xs-6, .col-sm-6, .col-md-6, .col-lg-6, .col-xs-7, .col-sm-7, .col-md-7, .col-lg-7, .col-xs-8, .col-sm-8, .col-md-8, .col-lg-8, .col-xs-9, .col-sm-9, .col-md-9, .col-lg-9, .col-xs-10, .col-sm-10, .col-md-10, .col-lg-10, .col-xs-11, .col-sm-11, .col-md-11, .col-lg-11, .col-xs-12, .col-sm-12, .col-md-12, .col-lg-12 {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+body {
+  font-size: 12px;
+  background: #FFF;
+  font-family: "shabnam";
+  padding: 0 !important;
+  overflow-x: hidden !important;
+  position: relative;
+  direction: rtl;
+}
+
+a {
+  -moz-transition-property: all;
+  -o-transition-property: all;
+  -webkit-transition-property: all;
+  transition-property: all;
+}
+
+a:hover{
+	text-decoration: none;
+}
+a:focus{
+	text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.clear {
+  content: "";
+  display: table;
+  clear: both;
+}
+/*************mainarea*************/
+.ham3_back{
+  background-color: rgba(0,0,0,1);
+  position: relative;
+}
+.ham3_back img{
+  width: 100%;
+  opacity: .5;
+}
+a.logo{
+  position: absolute;
+  top: 20px;
+  left: 15px;
+  background: url(../images/logo.png);
+  width: 126px;
+  height: 22px;
+}
+.ham3d_main{
+  background-color: #f1f1f1;
+  padding-bottom: 50px;
+  position: relative;
+}
+.ham3d_main .customer{
+  margin-top: -80px;
+  margin-bottom: 48px;
+  overflow: hidden;
+}
+.ham3d_main .customer span{
+  font-size: 24px;
+  color: #333;
+  /*float: right;*/
+  margin-top: 90px;
+  display: block;
+}
+.ham3d_main .customer_logo{
+  width: 177px;
+  height: 160px;
+  background-color: #fff;
+  line-height: 150px;
+  text-align: center;
+  float: right;
+  margin-left: 16px;
+}
+.ham3d_main .page{
+  margin-bottom: 20px;
+}
+.ham3d_main .customer_photo{
+  overflow: hidden;
+  display: block;
+  background-color: #ccc;
+  width: 100%;
+  position: relative;
+}
+.ham3d_main .customer_photo img{
+  width: 100%;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+.ham3d_main .page a{
+  display: block;
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+.ham3d_main .page a .top_bar{
+  background-color: #d8d8d8;
+  float: left;
+  width: 100%;
+  padding:5px;
+}
+.ham3d_main .page .top_bar i{
+  display: block;
+  background: url(../../img/bull.png) no-repeat;
+  width: 4px;
+  height: 4px;
+  margin-right: 5px;
+  float: left;
+}
+.ham3d_main .page span.title{
+  display: block;
+  background-color: #fff;
+  font-size: 13px;
+  color: #333;
+  padding: 20px 15px;
+  text-decoration: none;
+}
+/************MEDIA QUERY***************/
+@media only screen and (max-width:1200px){
+
+}
+
+@media only screen and (max-width:1024px){
+
+}
+
+@media only screen and (max-width:992px){
+
+}
+
+@media only screen and (max-width:768px){
+
+}
+
+@media only screen and (max-width:736px){
+
+}
+
+@media only screen and (max-width:667px){
+  .ham3d_main .customer span{
+    font-size: 20px;
+  }
+}
+
+@media only screen and (max-width:568px){
+  .ham3d_main .customer_logo{
+    width: 160px;
+    height: 140px;
+    line-height: 140px;
+  }
+}
+
+@media only screen and (max-width:480px){
+  .ham3d_main .customer{
+    text-align: center;
+    margin-top: -50px;
+  }
+  .ham3d_main .customer_logo,
+  .ham3d_main .customer span{
+    float: none;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .ham3d_main .customer_logo{
+    margin-bottom: 10px;
+  }
+  .ham3d_main .customer span{
+    margin-top: 0;
+  }
+}
+@media only screen and (max-width:414px){
+  .ham3d_main .pages .row>div{
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width:375px){
+  .ham3d_main .customer_logo{
+    background: none;
+  }
+  .ham3d_main .customer span{
+    font-size: 16px;
+  }
+}
+
+@media only screen and (max-width:360px){
+
+}
+
+@media only screen and (max-width:320px){
+
+}
